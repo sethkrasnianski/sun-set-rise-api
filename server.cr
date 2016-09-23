@@ -7,5 +7,5 @@ get "/" do |context|
 end
 
 Kemal.config.add_handler WeatherRequest.new
-Kemal.config.port = 3838
+Kemal.config.port = ENV["PORT"].to_i || 3838
 Kemal.run
