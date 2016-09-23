@@ -1,0 +1,19 @@
+name: sun-rise-set-api
+version: 0.1.0
+
+authors:
+  - name <seth@mojotech.com>
+
+description: |
+  Sunrise & Sunset api based on address. Optional lat & long.
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    version: "~> 0.15"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock
+
+license: MIT
