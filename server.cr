@@ -1,4 +1,3 @@
-require "json"
 require "kemal"
 require "./middleware/weather_request"
 
